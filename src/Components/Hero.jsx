@@ -2,13 +2,10 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='container d-flex justify-content-center align-items-center flex-column' style={{
-            background: "plum",
-            height: "40rem"
-        }}>
+        <div className='container hero d-flex justify-content-center align-items-center flex-column'>
 
+            <h1>Welcome to COSMOS</h1>
             <button>let's start</button>
-            <h1>Welcome in my Journey to Web dev</h1>
         </div >
     )
 }
