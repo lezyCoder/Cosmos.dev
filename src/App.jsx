@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer"
 import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
 import StatsSection from "./Components/StatsSection"
@@ -8,6 +9,7 @@ const App = () => {
       <Hero />
       <StatsSection />
       <Hero />
+      <Footer />
     </div>
   )
 }
