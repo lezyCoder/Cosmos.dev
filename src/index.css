@@ -23,5 +23,9 @@ body {
 /* Hero Styling */
 .hero {
     min-height: 100vh;
-    background-color: deeppink;
+    /* background-color: deeppink; */
+}
+
+.hero h1{
+    color: #489BCF;
 }
